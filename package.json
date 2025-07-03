@@ -1,0 +1,29 @@
+{
+  "name": "sample-kafka-example",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "homepage": "https://github.com/simonebenati/sample-kafka-example#readme",
+  "bugs": {
+    "url": "https://github.com/simonebenati/sample-kafka-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonebenati/sample-kafka-example.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@platformatic/kafka": "^1.7.0",
+    "express": "^5.1.0",
+    "express-winston": "^4.2.0",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
